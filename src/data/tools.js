@@ -1,4 +1,4 @@
-import { Minimize2, Sparkles, Eraser, Laugh, Brush, Maximize, Crop, RotateCw, FileImage, FileOutput, Code2, Stamp, EyeOff, Wand2 } from 'lucide-react'
+import { Minimize2, ZoomIn, Eraser, Laugh, Brush, Maximize, Crop, RotateCw, FileImage, FileOutput, Code2, Stamp, EyeOff } from 'lucide-react'
 
 export const TOOL_REGISTRY = {
   'photo-editor': {
@@ -21,7 +21,7 @@ export const TOOL_REGISTRY = {
     title: 'Upscale Image',
     tagline: 'More pixels on demand',
     desc: 'Enlarge photos 2x with high-quality smoothing that keeps edges crisp — ideal for prints and retina displays.',
-    icon: Sparkles,
+    icon: ZoomIn,
     accent: 'from-emerald-700 to-teal-500',
     mode: 'upscale',
   },

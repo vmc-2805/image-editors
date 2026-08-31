@@ -1,4 +1,4 @@
-import { Minimize2, Sparkles, Eraser, Laugh, Brush, Maximize, Crop, RotateCw, FileImage, FileOutput, Code2, Stamp, EyeOff } from 'lucide-react'
+import { Minimize2, ZoomIn, Eraser, Laugh, Brush, Maximize, Crop, RotateCw, FileImage, FileOutput, Code2, Stamp, EyeOff } from 'lucide-react'
 
 export const NAV_LINKS = [
   { label: 'Compress Image', path: '/tool/compress-image' },
@@ -12,7 +12,7 @@ export const MEGA_MENU = [
     accent: 'from-emerald-800 to-emerald-500',
     tools: [
       { label: 'Compress Image', desc: 'Shrink file size', icon: Minimize2, path: '/tool/compress-image' },
-      { label: 'Upscale', desc: 'Enhance resolution 2x', icon: Sparkles, path: '/tool/upscale' },
+      { label: 'Upscale', desc: 'Enhance resolution 2x', icon: ZoomIn, path: '/tool/upscale' },
       { label: 'Remove Background', desc: 'One-click cutout', icon: Eraser, path: '/tool/remove-background' },
     ],
   },

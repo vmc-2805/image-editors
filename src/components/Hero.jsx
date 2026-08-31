@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, Brush, Sparkles, Wand2 } from 'lucide-react'
+import { ArrowRight, Brush, Wand2 } from 'lucide-react'
 
 const STATS = [
   { value: '16+', label: 'Smart tools' },
@@ -39,7 +39,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 rounded-full border border-lime-300/25 bg-white/5 px-4 py-1.5 text-xs font-extrabold text-lime-200 backdrop-blur animate-fade-up"
           style={{ animationDelay: '60ms' }}
         >
-          <Sparkles size={13} />
+          <Wand2 size={13} />
           New — AI Background Remover built in
         </span>
 

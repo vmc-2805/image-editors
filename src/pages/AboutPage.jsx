@@ -6,7 +6,6 @@ import {
   Heart,
   Lock,
   Rocket,
-  Sparkles,
   Target,
   Users,
   Zap,

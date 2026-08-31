@@ -7,9 +7,9 @@ import {
   Palette,
   Pipette,
   Plus,
-  Sparkles,
   Trash2,
   Unlock,
+  Wand2,
 } from 'lucide-react'
 import { ADJUSTMENTS, FILTER_PRESETS } from '../hooks/useEditor.js'
 
@@ -425,7 +425,7 @@ function BgRemovePanel({
             disabled={!!bgProgress}
             className="btn-gradient w-full !py-3"
           >
-            <Sparkles size={17} />
+            <Wand2 size={17} />
             {bgProgress ? 'Working…' : 'Remove Background'}
           </button>
 

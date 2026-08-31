@@ -14,7 +14,6 @@ import {
   MoveHorizontal,
   ShieldCheck,
   Sliders,
-  Sparkles,
   Stamp,
   Type,
   UploadCloud,
@@ -385,7 +384,7 @@ export default function HomePage() {
               <div className="pointer-events-none absolute -left-20 -top-24 h-72 w-72 rounded-full bg-emerald-500/25 blur-[100px] animate-float-slow" />
               <div className="pointer-events-none absolute -bottom-28 -right-16 h-80 w-80 rounded-full bg-lime-400/15 blur-[110px]" />
               <div className="relative">
-                <Sparkles size={28} className="mx-auto mb-4 text-lime-300" />
+                <Wand2 size={28} className="mx-auto mb-4 text-lime-300" />
                 <h2 className="mx-auto max-w-xl text-3xl font-extrabold tracking-tight sm:text-4xl">
                   Your next edit is{' '}
                   <span className="bg-gradient-to-r from-lime-300 to-emerald-300 bg-clip-text text-transparent">

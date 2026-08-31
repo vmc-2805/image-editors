@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { ArrowRight, Info, Lock, Sparkles } from 'lucide-react'
+import { ArrowRight, Info, Lock, Wand2 } from 'lucide-react'
 import { TOOL_REGISTRY } from '../data/tools.js'
 import EditorSection from '../editor/EditorSection.jsx'
 import QuickTool from '../components/QuickTool.jsx'
@@ -69,7 +69,7 @@ export default function ToolPage() {
             <QuickTool tool={tool} />
             <div className="mx-auto mt-8 grid max-w-3xl gap-3 sm:grid-cols-3">
               {[
-                { icon: Sparkles, text: 'High-quality canvas re-encoding' },
+                { icon: Wand2, text: 'High-quality canvas re-encoding' },
                 { icon: Lock, text: 'Files never touch a server' },
                 { icon: ArrowRight, text: 'Unlimited exports, always free' },
               ].map((f) => (
@@ -115,7 +115,7 @@ export default function ToolPage() {
                 'Join the waitlist from the editor page',
               ].map((p) => (
                 <li key={p} className="flex items-start gap-2.5 rounded-2xl border border-line bg-white p-4 shadow-soft">
-                  <Sparkles size={15} className="mt-0.5 shrink-0 text-primary" />
+                  <Wand2 size={15} className="mt-0.5 shrink-0 text-primary" />
                   <span className="text-sm font-semibold text-gray-600">{p}</span>
                 </li>
               ))}

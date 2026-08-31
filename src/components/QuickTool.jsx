@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { Check, ChevronRight, Download, Home, ImagePlus, Info, Lock, Sparkles } from 'lucide-react'
+import { Check, ChevronRight, Download, Home, ImagePlus, Info, Lock } from 'lucide-react'
 
 const COMPRESS_QUALITY = 0.5
 
