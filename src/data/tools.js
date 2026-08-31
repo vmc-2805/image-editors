@@ -1,0 +1,150 @@
+import { Minimize2, Sparkles, Eraser, Laugh, Brush, Maximize, Crop, RotateCw, FileImage, FileOutput, Code2, Stamp, EyeOff, Wand2 } from 'lucide-react'
+
+export const TOOL_REGISTRY = {
+  'photo-editor': {
+    title: 'Photo Editor',
+    tagline: 'The complete editing studio',
+    desc: 'Adjust light and color, apply film-grade filters, crop with precision, add text or brush strokes — everything renders live on your device.',
+    icon: Brush,
+    accent: 'from-lime-300 to-emerald-400',
+    mode: 'editor',
+  },
+  'compress-image': {
+    title: 'Compress Image',
+    tagline: 'Maximum size reduction',
+    desc: 'Instantly shrink your JPG file size with aggressive compression. No settings needed — upload, one tap, done.',
+    icon: Minimize2,
+    accent: 'from-emerald-800 to-emerald-500',
+    mode: 'compress',
+  },
+  'upscale': {
+    title: 'Upscale Image',
+    tagline: 'More pixels on demand',
+    desc: 'Enlarge photos 2x with high-quality smoothing that keeps edges crisp — ideal for prints and retina displays.',
+    icon: Sparkles,
+    accent: 'from-emerald-700 to-teal-500',
+    mode: 'upscale',
+  },
+  'remove-background': {
+    title: 'Remove Background',
+    tagline: 'One-tap AI cutout',
+    desc: 'Our on-device AI detects the subject and erases the background in seconds — or pick colors manually for full control.',
+    icon: Eraser,
+    accent: 'from-emerald-600 to-green-500',
+    mode: 'editor',
+  },
+  'meme-generator': {
+    title: 'Meme Generator',
+    tagline: 'Caption anything',
+    desc: 'Drop an image, add bold top and bottom text, drag it anywhere and export a share-ready meme instantly.',
+    icon: Laugh,
+    accent: 'from-lime-700 to-emerald-500',
+    mode: 'editor',
+  },
+  'resize-image': {
+    title: 'Resize Image',
+    tagline: 'Exact dimensions',
+    desc: 'Scale to precise pixel dimensions with aspect-ratio locking and handy presets for HD, Full HD and web sizes.',
+    icon: Maximize,
+    accent: 'from-teal-800 to-green-600',
+    mode: 'editor',
+  },
+  'crop-image': {
+    title: 'Crop Image',
+    tagline: 'Perfect framing',
+    desc: 'Drag a live selection over your photo and cut it down with pixel-perfect accuracy. Flattens current edits automatically.',
+    icon: Crop,
+    accent: 'from-green-800 to-emerald-600',
+    mode: 'editor',
+  },
+  'rotate-image': {
+    title: 'Rotate Image',
+    tagline: 'Turn & flip freely',
+    desc: 'Rotate in clean 90° steps and flip horizontally or vertically — instant, non-destructive and undoable.',
+    icon: RotateCw,
+    accent: 'from-emerald-900 to-primary',
+    mode: 'editor',
+  },
+  'convert-to-jpg': {
+    title: 'Convert to JPG',
+    tagline: 'PNG & WEBP → JPG',
+    desc: 'Turn PNG or WEBP images into universally supported JPG files — perfect for sharing, uploads and email.',
+    icon: FileImage,
+    accent: 'from-gray-800 to-secondary',
+    mode: 'convert',
+    format: 'jpeg',
+    ext: 'jpg',
+  },
+  'convert-from-jpg': {
+    title: 'Convert from JPG',
+    tagline: 'JPG → PNG & more',
+    desc: 'Re-encode your JPGs into lossless PNG files with full transparency support for design work.',
+    icon: FileOutput,
+    accent: 'from-gray-800 to-secondary',
+    mode: 'convert',
+    format: 'png',
+    ext: 'png',
+  },
+  'html-to-image': {
+    title: 'HTML to Image',
+    tagline: 'Snippet capture',
+    desc: 'Paste HTML with inline styles, preview it live and export a crisp PNG snapshot of your markup.',
+    icon: Code2,
+    accent: 'from-gray-600 to-gray-800',
+    mode: 'html',
+  },
+  'watermark-image': {
+    title: 'Watermark Image',
+    tagline: 'Protect your work',
+    desc: 'Brand photos with custom text watermarks — control size, opacity, color and placement on a live preview.',
+    icon: Stamp,
+    accent: 'from-emerald-950 to-primary',
+    mode: 'editor',
+  },
+  'blur-face': {
+    title: 'Blur Face',
+    tagline: 'Privacy first',
+    desc: 'Paint over faces, plates or any detail with an adjustable blur brush — the effect is baked straight into your photo.',
+    icon: EyeOff,
+    accent: 'from-primary to-emerald-700',
+    mode: 'editor',
+  },
+}
+
+export const HOME_TOOLS = [
+  'photo-editor',
+  'remove-background',
+  'compress-image',
+  'crop-image',
+  'resize-image',
+  'filters-tool',
+  'watermark-image',
+  'meme-generator',
+]
+
+export const FAQS = [
+  {
+    q: 'Is PixelForge really free to use?',
+    a: 'Yes — every tool on the site is completely free with no hidden limits. No account, no credit card and no export watermarks. We believe basic image editing should be a public utility.',
+  },
+  {
+    q: 'Do my photos get uploaded to a server?',
+    a: 'No. The entire editor runs inside your browser using modern canvas and WebAssembly technology. Your images never leave your device unless you explicitly download them yourself.',
+  },
+  {
+    q: 'Which file formats are supported?',
+    a: 'You can load JPG, PNG, WEBP, GIF and BMP files, and export back to high-quality PNG or compressed JPG. Exports keep transparency when you choose PNG.',
+  },
+  {
+    q: 'How does the AI Background Remover work offline?',
+    a: 'A compact neural network (about 40MB) is downloaded once and cached in your browser. From then on, subject cutouts run entirely on your own hardware — even without internet.',
+  },
+  {
+    q: 'Can I use the results commercially?',
+    a: 'Absolutely. You own your images. Anything you create or export with PixelForge is 100% yours to use for clients, social media, print or products.',
+  },
+  {
+    q: 'Does the editor work on mobile devices?',
+    a: 'Yes. The whole interface is responsive — tools become a scrollable bottom bar and panels stack neatly, so you can edit comfortably on phones and tablets too.',
+  },
+]
