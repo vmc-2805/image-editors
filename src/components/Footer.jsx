@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-[1.2fr_2fr]">
           <div>
-            <Logo />
+            <Logo variant="dark" />
             <p className="mt-4 max-w-xs text-sm font-medium leading-relaxed text-emerald-50/55">
               A privacy-first photo studio that lives entirely in your browser. Crafted for
               creators who value speed and simplicity.
@@ -67,9 +67,12 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 sm:flex-row">
           <p className="text-xs font-semibold text-emerald-100/40">
-            © {new Date().getFullYear()} PixelForge Studio. All rights reserved.
+            © {new Date().getFullYear()} ImageEditify. All rights reserved.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
+            <Link to="/blog" className="text-[11px] font-bold text-emerald-100/40 transition-colors hover:text-lime-300">
+              Blog
+            </Link>
             <Link to="/about" className="text-[11px] font-bold text-emerald-100/40 transition-colors hover:text-lime-300">
               About
             </Link>

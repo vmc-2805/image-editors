@@ -129,7 +129,7 @@ export default function useEditor() {
   const [annotations, setAnnotations] = useState([])
   const [watermark, setWatermark] = useState({
     enabled: false,
-    text: '© PixelForge',
+    text: '© ImageEditify',
     size: 32,
     opacity: 0.55,
     color: '#ffffff',
@@ -709,7 +709,7 @@ export default function useEditor() {
       const a = document.createElement('a')
       const base = (imageRef.current.name || 'image').replace(/\.[^.]+$/, '')
       a.href = url
-      a.download = `${base}-pixelforge.${format}`
+      a.download = `${base}-imageeditify.${format}`
       a.click()
       showToast(`Downloaded ${format.toUpperCase()}`)
     },
@@ -720,7 +720,7 @@ export default function useEditor() {
     if (!imageRef.current) return
     try {
       localStorage.setItem(
-        'pixelforge-project',
+        'imageeditify-project',
         JSON.stringify({ savedAt: new Date().toISOString(), ...takeSnapshot() }),
       )
       showToast('Project saved to this browser')

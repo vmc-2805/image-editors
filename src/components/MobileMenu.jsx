@@ -5,7 +5,7 @@ import { NAV_LINKS, MEGA_MENU } from '../data/navigation.js'
 export default function MobileMenu({ open, onClose, onToggleMega, megaOpen }) {
   return (
     <div
-      className={`overflow-hidden border-t border-white/10 bg-[#031c08] transition-all duration-300 ease-out lg:hidden ${
+      className={`overflow-hidden border-t border-line bg-white transition-all duration-300 ease-out lg:hidden ${
         open ? 'max-h-[80vh] opacity-100' : 'max-h-0 border-t-0 opacity-0'
       }`}
     >
@@ -17,7 +17,7 @@ export default function MobileMenu({ open, onClose, onToggleMega, megaOpen }) {
           <Link key={link.label} to={link.path}
             onClick={onClose}
             style={{ animationDelay: `${i * 40}ms` }}
-            className={`block rounded-xl px-4 py-3 text-sm font-bold uppercase tracking-wide text-emerald-50/80 transition-colors hover:bg-white/5 hover:text-lime-300 ${
+            className={`block rounded-xl px-4 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-surface hover:text-primary ${
               open ? 'animate-fade-up' : ''
             }`}
           >
@@ -28,7 +28,7 @@ export default function MobileMenu({ open, onClose, onToggleMega, megaOpen }) {
         <button
           type="button"
           onClick={onToggleMega}
-          className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-bold uppercase tracking-wide text-emerald-50/80 transition-colors hover:bg-white/5 hover:text-lime-300 ${
+          className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-surface hover:text-primary ${
             open ? 'animate-fade-up' : ''
           }`}
           style={{ animationDelay: `${NAV_LINKS.length * 40}ms` }}
@@ -51,7 +51,7 @@ export default function MobileMenu({ open, onClose, onToggleMega, megaOpen }) {
                 key={tool.label}
                 to={tool.path}
                 onClick={onClose}
-                className="flex w-full min-w-0 items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2.5 text-xs font-bold text-emerald-50/85 transition-all hover:border-lime-300/30 hover:text-lime-300"
+                className="flex w-full min-w-0 items-center gap-2 rounded-xl border border-line bg-surface px-3 py-2.5 text-xs font-bold text-ink transition-all hover:border-primary/30 hover:text-primary"
               >
                 <span
                   className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br ${cat.accent} text-white`}

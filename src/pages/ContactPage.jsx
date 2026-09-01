@@ -7,7 +7,7 @@ const CONTACT_INFO = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'support@pixelforge.studio',
+    value: 'support@imageeditify.com',
     desc: 'We reply within 24 hours',
   },
   {

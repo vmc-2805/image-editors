@@ -37,7 +37,7 @@ const VALUES = [
 ]
 
 const MILESTONES = [
-  { year: '2024', event: 'PixelForge concept born from frustration with heavy desktop editors' },
+  { year: '2024', event: 'ImageEditify concept born from frustration with heavy desktop editors' },
   { year: '2025', event: 'First public release with AI background removal, filters, and core editing tools' },
   { year: '2026', event: 'Expanded to 16+ tools, watermark studio, and meme generator' },
 ]
@@ -97,7 +97,7 @@ export default function AboutPage() {
                 </h2>
                 <p className="mt-5 text-sm font-medium leading-relaxed text-gray-500 sm:text-base">
                   We believe photo editing shouldn't require a 2GB download, a monthly subscription, or
-                  uploading your personal images to someone else's server. PixelForge was built to prove
+                  uploading your personal images to someone else's server. ImageEditify was built to prove
                   that a browser-based tool can match — and even surpass — traditional desktop software.
                 </p>
                 <p className="mt-4 text-sm font-medium leading-relaxed text-gray-500 sm:text-base">

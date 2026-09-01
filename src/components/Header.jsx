@@ -27,7 +27,7 @@ export default function Header() {
   }, [])
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#012604] text-white">
+    <header className="sticky top-0 z-50 border-b border-line bg-white text-ink shadow-soft">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <Logo />
 
@@ -35,7 +35,7 @@ export default function Header() {
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
           {NAV_LINKS.map((link) => (
             <Link key={link.label} to={link.path}
-              className="relative rounded-lg px-3 py-2 text-[13px] font-semibold uppercase tracking-wide text-white transition-colors duration-200 hover:text-lime-300 after:absolute after:inset-x-3 after:-bottom-0.5 after:h-0.5 after:origin-left after:scale-x-0 after:rounded-full after:bg-gradient-to-r after:from-lime-300 after:to-emerald-400 after:transition-transform after:duration-300 hover:after:scale-x-100"
+              className="relative rounded-lg px-3 py-2 text-[13px] font-semibold uppercase tracking-wide text-ink transition-colors duration-200 hover:text-primary after:absolute after:inset-x-3 after:-bottom-0.5 after:h-0.5 after:origin-left after:scale-x-0 after:rounded-full after:bg-gradient-to-r after:from-primary after:to-emerald-400 after:transition-transform after:duration-300 hover:after:scale-x-100"
             >
               {link.label}
             </Link>
@@ -47,7 +47,7 @@ export default function Header() {
               onClick={() => setMegaOpen((v) => !v)}
               aria-expanded={megaOpen}
               className={`flex items-center gap-1.5 rounded-lg px-3 py-2 text-[13px] font-semibold uppercase tracking-wide transition-colors duration-200 ${
-                megaOpen ? 'text-lime-300' : 'text-white hover:text-lime-300'
+                megaOpen ? 'text-primary' : 'text-ink hover:text-primary'
               }`}
             >
               More Tools
@@ -72,7 +72,7 @@ export default function Header() {
             type="button"
             aria-label="Toggle menu"
             onClick={() => setMobileOpen((v) => !v)}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/20 bg-white/5 text-white transition-colors hover:border-lime-300/50 hover:text-lime-300 lg:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-line bg-surface text-ink transition-colors hover:border-primary/40 hover:text-primary lg:hidden"
           >
             {mobileOpen ? <X size={20} /> : <MenuIcon size={20} />}
           </button>

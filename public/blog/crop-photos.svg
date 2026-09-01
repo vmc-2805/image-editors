@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#064e3b"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="none" stroke="#a7f3d0" stroke-opacity="0.15" stroke-width="2">
+    <path d="M0 200 L300 100 L600 240 L900 120 L1200 220"/>
+    <path d="M0 260 L300 160 L600 300 L900 180 L1200 280"/>
+    <path d="M0 900 L300 800 L600 940 L900 820 L1200 920"/>
+  </g>
+  <g transform="translate(600 280)" fill="none" stroke="#a7f3d0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-220" y="-140" width="440" height="280" rx="12" stroke-opacity="0.6"/>
+    <path d="M-220 -30 L-80 -30 L30 40 L180 -70" stroke-opacity="0.9"/>
+    <path d="M30 40 L30 90 L180 90 L180 -70" stroke-opacity="0.9"/>
+  </g>
+  <g transform="translate(-90 -70)">
+    <g stroke="#6ee7a0" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6">
+      <path d="M340 10 l8 22 M352 22 l8 -22"/>
+      <path d="M360 10 l8 22 M372 22 l8 -22"/>
+      <path d="M380 10 l8 22 M392 22 l8 -22"/>
+      <path d="M400 10 l8 22 M412 22 l8 -22"/>
+      <path d="M420 10 l8 22 M432 22 l8 -22"/>
+    </g>
+  </g>
+  <text x="600" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#a7f3d0" font-weight="bold" letter-spacing="2">Crop Photos Perfectly</text>
+</svg>

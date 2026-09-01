@@ -47,7 +47,7 @@ export default function Hero() {
           className="mx-auto mt-6 max-w-3xl text-4xl font-extrabold leading-[1.12] tracking-tight sm:text-5xl lg:text-6xl animate-fade-up"
           style={{ animationDelay: '140ms' }}
         >
-          Forge pixel-perfect photos{' '}
+          Edit your images perfectly{' '}
           <span className="bg-gradient-to-r from-lime-300 via-emerald-300 to-emerald-400 bg-clip-text text-transparent">
             without leaving your browser
           </span>

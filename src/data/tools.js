@@ -124,7 +124,7 @@ export const HOME_TOOLS = [
 
 export const FAQS = [
   {
-    q: 'Is PixelForge really free to use?',
+    q: 'Is ImageEditify really free to use?',
     a: 'Yes — every tool on the site is completely free with no hidden limits. No account, no credit card and no export watermarks. We believe basic image editing should be a public utility.',
   },
   {
@@ -141,7 +141,7 @@ export const FAQS = [
   },
   {
     q: 'Can I use the results commercially?',
-    a: 'Absolutely. You own your images. Anything you create or export with PixelForge is 100% yours to use for clients, social media, print or products.',
+    a: 'Absolutely. You own your images. Anything you create or export with ImageEditify is 100% yours to use for clients, social media, print or products.',
   },
   {
     q: 'Does the editor work on mobile devices?',

@@ -6,22 +6,22 @@ const SECTIONS = [
   {
     title: '1. Acceptance of Terms',
     content:
-      'By accessing or using PixelForge ("the Service"), you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must discontinue use of the Service immediately.',
+      'By accessing or using ImageEditify ("the Service"), you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must discontinue use of the Service immediately.',
   },
   {
     title: '2. Description of Service',
     content:
-      'PixelForge is a free, browser-based photo editing tool that processes images entirely on your device. No images are uploaded to any server. All editing, filters, AI background removal, and export operations happen locally in your web browser using HTML5 Canvas and WebAssembly technology.',
+      'ImageEditify is a free, browser-based photo editing tool that processes images entirely on your device. No images are uploaded to any server. All editing, filters, AI background removal, and export operations happen locally in your web browser using HTML5 Canvas and WebAssembly technology.',
   },
   {
     title: '3. User Responsibilities',
     content:
-      'You are solely responsible for the images you load into PixelForge. You must ensure that you have the legal right to edit and use any image you process through the Service. PixelForge does not claim ownership of any user content.',
+      'You are solely responsible for the images you load into ImageEditify. You must ensure that you have the legal right to edit and use any image you process through the Service. ImageEditify does not claim ownership of any user content.',
   },
   {
     title: '4. Intellectual Property',
     content:
-      'All software, code, design, logos, and branding associated with PixelForge are the intellectual property of PixelForge Studio. You may not copy, modify, distribute, or reverse-engineer any part of the Service without prior written consent.',
+      'All software, code, design, logos, and branding associated with ImageEditify are the intellectual property of ImageEditify. You may not copy, modify, distribute, or reverse-engineer any part of the Service without prior written consent.',
   },
   {
     title: '5. Prohibited Uses',
@@ -31,12 +31,12 @@ const SECTIONS = [
   {
     title: '6. Disclaimer of Warranties',
     content:
-      'PixelForge is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not warrant that the Service will be uninterrupted, error-free, or free of harmful components.',
+      'ImageEditify is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not warrant that the Service will be uninterrupted, error-free, or free of harmful components.',
   },
   {
     title: '7. Limitation of Liability',
     content:
-      'In no event shall PixelForge Studio be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use of or inability to use the Service. Our total liability shall not exceed the amount you paid us (which is zero for the free tier).',
+      'In no event shall ImageEditify be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use of or inability to use the Service. Our total liability shall not exceed the amount you paid us (which is zero for the free tier).',
   },
   {
     title: '8. Service Availability',
@@ -46,7 +46,7 @@ const SECTIONS = [
   {
     title: '9. Third-Party Links',
     content:
-      'The Service may contain links to third-party websites or services. PixelForge Studio does not endorse and is not responsible for the content or practices of any third-party sites.',
+      'The Service may contain links to third-party websites or services. ImageEditify does not endorse and is not responsible for the content or practices of any third-party sites.',
   },
   {
     title: '10. Changes to Terms',
@@ -61,7 +61,7 @@ const SECTIONS = [
   {
     title: '12. Contact',
     content:
-      'If you have any questions about these Terms and Conditions, please contact us through our Contact Us page or via email at support@pixelforge.studio.',
+      'If you have any questions about these Terms and Conditions, please contact us through our Contact Us page or via email at support@imageeditify.com.',
   },
 ]
 
@@ -97,7 +97,7 @@ export default function TermsPage() {
               <Breadcrumb items={[{ label: 'Terms & Conditions' }]} />
             </div>
             <p className="col-span-12 text-sm font-medium leading-relaxed text-emerald-50/65 lg:col-span-6 lg:text-right">
-              Our terms of service and usage guidelines for PixelForge.
+              Our terms of service and usage guidelines for ImageEditify.
             </p>
           </div>
         </div>

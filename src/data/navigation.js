@@ -4,6 +4,7 @@ export const NAV_LINKS = [
   { label: 'Compress Image', path: '/tool/compress-image' },
   { label: 'Crop Image', path: '/tool/crop-image' },
   { label: 'Convert to JPG', path: '/tool/convert-to-jpg' },
+  { label: 'Blog', path: '/blog' },
 ]
 
 export const MEGA_MENU = [

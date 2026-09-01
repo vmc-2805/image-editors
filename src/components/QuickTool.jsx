@@ -52,7 +52,7 @@ export default function QuickTool({ tool }) {
       const out = c.toDataURL(mime, q)
       const a = document.createElement('a')
       a.href = out
-      a.download = `${img.name.replace(/\.[^.]+$/, '')}-${tool.ext || 'pixelforge'}.${tool.ext || 'png'}`
+      a.download = `${img.name.replace(/\.[^.]+$/, '')}-${tool.ext || 'imageeditify'}.${tool.ext || 'png'}`
       a.click()
       const kb = Math.round((out.length * 0.75) / 1024)
       setDone({ kb, dims: `${w} × ${h}` })

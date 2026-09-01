@@ -31,31 +31,31 @@ const BENTO = [
     desc: 'A compact neural network runs on your device and lifts subjects off any background in seconds — hair, fur and glass edges included.',
     path: '/tool/remove-background',
     big: true,
-    tint: 'from-emerald-800 to-emerald-500',
+    tint: 'from-primary to-emerald-700',
   },
   {
     icon: Sliders,
     title: 'Precision Adjustments',
     desc: 'Brightness, contrast, saturation, hue, blur and film grain-style looks with live preview.',
-    tint: 'from-emerald-700 to-emerald-500',
+    tint: 'from-primary to-emerald-700',
   },
   {
     icon: Wand2,
     title: '8 Signature Filters',
     desc: 'Hand-tuned presets from Mono to Drama, stacked non-destructively.',
-    tint: 'from-gray-600 to-gray-800',
+    tint: 'from-primary to-emerald-700',
   },
   {
     icon: Maximize2,
     title: 'Pixel-Perfect Geometry',
     desc: 'Crop with live rulers, resize with aspect lock, rotate and flip instantly.',
-    tint: 'from-teal-700 to-green-600',
+    tint: 'from-primary to-emerald-700',
   },
   {
     icon: Stamp,
     title: 'Watermark Studio',
     desc: 'Protect your work with custom text marks, opacity and smart placement.',
-    tint: 'from-primary to-emerald-800',
+    tint: 'from-primary to-emerald-700',
   },
 ]
 
@@ -238,7 +238,7 @@ export default function HomePage() {
                   </span>
                 </>
               }
-              sub="Everything you expect from desktop software — rebuilt to run instantly in a browser tab."
+              sub="Everything you expect from desktop software — rebuilt to run instantly in your browser."
             />
           </Reveal>
 
@@ -294,7 +294,7 @@ export default function HomePage() {
             <SectionHeading
               kicker="Workflow"
               title="From drop to download in three moves"
-              sub="No timelines, no layers panel, no tutorials. PixelForge keeps the magic under the hood."
+              sub="No timelines, no layers panel, no tutorials. ImageEditify keeps the magic under the hood."
             />
           </Reveal>
           <div className="relative grid gap-6 md:grid-cols-3">
@@ -335,7 +335,7 @@ export default function HomePage() {
                   to={tool.mode === 'editor' && slug === 'photo-editor' ? '/editor' : `/tool/${slug}`}
                   className="group flex h-full flex-col items-start gap-3 rounded-2xl border border-line bg-white p-5 shadow-soft transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/30 hover:shadow-lift"
                 >
-                  <span className={`flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br ${tool.accent} text-white shadow-sm transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110`}>
+                  <span className={`flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-emerald-700 text-white shadow-sm transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110`}>
                     <tool.icon size={19} strokeWidth={2.1} />
                   </span>
                   <span>

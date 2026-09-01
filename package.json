@@ -1,12 +1,13 @@
 {
-  "name": "pixelforge-photo-editor",
+  "name": "imageeditify-photo-editor",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "node scripts/generate-sitemap.mjs"
   },
   "dependencies": {
     "@imgly/background-removal": "^1.7.0",

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071e3d"/>
+      <stop offset="1" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="none" stroke="#a7f3d0" stroke-opacity="0.10" stroke-width="2">
+    <circle cx="180" cy="520" r="280" transform="translate(120 0)"/>
+  </g>
+  <g transform="translate(590 260)">
+    <rect x="-200" y="-130" width="400" height="260" rx="12" fill="#ffffff" fill-opacity="0.9"/>
+    <g stroke="#012604" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7">
+      <path d="M-150 -40 q40 -25 80 5 t80 -5 M-150 40 q40 -25 80 5 t80 -5"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#012604" font-weight="bold" font-style="italic">YourBrand.com</text>
+    <text x="0" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#065f46" fill-opacity="0.6">photo</text>
+    <path d="M-200 -130 v260 M200 -130 v260 M-200 -40 q400 -30 400 0" stroke="#6ee7a0" stroke-opacity="0.5" stroke-width="2" fill="none"/>
+  </g>
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#a7f3d0" font-weight="bold" letter-spacing="2">Watermark Your Photos</text>
+</svg>

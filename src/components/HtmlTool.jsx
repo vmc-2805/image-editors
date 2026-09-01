@@ -10,7 +10,7 @@ const SAMPLE = `<div style="
   font-family: Georgia, serif;
 ">
   <p style="margin: 0 0 8px; font-size: 14px; letter-spacing: 3px; color: #a7f3d0;">
-    PIXELFORGE STUDIO
+    IMAGEEDITIFY PHOTO EDITOR
   </p>
   <h1 style="margin: 0; font-size: 42px; line-height: 1.15;">
     Ship visuals that feel<br />hand-crafted.
@@ -71,7 +71,7 @@ export default function HtmlTool() {
       const out = c.toDataURL('image/png')
       const a = document.createElement('a')
       a.href = out
-      a.download = 'html-snapshot-pixelforge.png'
+      a.download = 'html-snapshot-imageeditify.png'
       document.body.appendChild(a)
       a.click()
       document.body.removeChild(a)
