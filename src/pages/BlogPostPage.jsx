@@ -4,6 +4,7 @@ import Breadcrumb from '../components/Breadcrumb.jsx'
 import Reveal from '../components/Reveal.jsx'
 import { BLOG_POSTS, getPost } from '../data/blog.js'
 import { TOOL_REGISTRY } from '../data/tools.js'
+import { useSEO } from '../hooks/useSEO.js'
 
 function formatDate(dateStr) {
   return new Date(dateStr).toLocaleDateString('en-US', {
@@ -16,6 +17,12 @@ function formatDate(dateStr) {
 export default function BlogPostPage() {
   const { slug } = useParams()
   const post = getPost(slug)
+  useSEO({
+    title: post ? post.title : null,
+    description: post ? post.metaDescription : undefined,
+    path: `/blog/${slug}`,
+    type: 'article',
+  })
   if (!post) return <Navigate to="/blog" replace />
 
   const idx = BLOG_POSTS.findIndex((p) => p.slug === slug)

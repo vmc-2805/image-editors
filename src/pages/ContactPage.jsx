@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Mail, MessageSquare, Send, MapPin, Clock } from 'lucide-react'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import Reveal from '../components/Reveal.jsx'
+import { useSEO } from '../hooks/useSEO.js'
 
 const CONTACT_INFO = [
   {
@@ -25,6 +26,12 @@ const CONTACT_INFO = [
 ]
 
 export default function ContactPage() {
+  useSEO({
+    title: 'Contact Us',
+    description:
+      'Questions, feedback or ideas? Contact the ImageEditify team. We reply within 24 hours — support@imageeditify.com.',
+    path: '/contact',
+  })
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
 

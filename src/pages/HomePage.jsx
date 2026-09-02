@@ -23,6 +23,7 @@ import {
 import Hero from '../components/Hero.jsx'
 import Reveal from '../components/Reveal.jsx'
 import { TOOL_REGISTRY, FAQS } from '../data/tools.js'
+import { useSEO } from '../hooks/useSEO.js'
 
 const BENTO = [
   {
@@ -218,6 +219,11 @@ function SectionHeading({ kicker, title, sub }) {
 }
 
 export default function HomePage() {
+  useSEO({
+    description:
+      'ImageEditify is a free browser-based photo editor. Crop, resize, rotate, apply filters, remove backgrounds and perfect your images — fast, private and 100% free.',
+    path: '/',
+  })
   return (
     <>
       <Hero />

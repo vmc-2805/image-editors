@@ -1,6 +1,7 @@
 import { FileText } from 'lucide-react'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import Reveal from '../components/Reveal.jsx'
+import { useSEO } from '../hooks/useSEO.js'
 
 const SECTIONS = [
   {
@@ -66,6 +67,12 @@ const SECTIONS = [
 ]
 
 export default function TermsPage() {
+  useSEO({
+    title: 'Terms of Service',
+    description:
+      'Read the Terms and Conditions governing your use of ImageEditify — the free, browser-based photo editor that never uploads your images.',
+    path: '/terms',
+  })
   return (
     <>
       <section className="relative overflow-hidden bg-[#012604] py-10 text-white sm:py-12">

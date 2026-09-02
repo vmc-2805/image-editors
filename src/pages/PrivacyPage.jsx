@@ -1,6 +1,7 @@
 import { Shield } from 'lucide-react'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import Reveal from '../components/Reveal.jsx'
+import { useSEO } from '../hooks/useSEO.js'
 
 const SECTIONS = [
   {
@@ -61,6 +62,12 @@ const SECTIONS = [
 ]
 
 export default function PrivacyPage() {
+  useSEO({
+    title: 'Privacy Policy',
+    description:
+      "ImageEditify's privacy policy: your images never leave your device. No uploads, no tracking, no personal data collected. 100% browser-based.",
+    path: '/privacy',
+  })
   return (
     <>
       <section className="relative overflow-hidden bg-[#012604] py-10 text-white sm:py-12">

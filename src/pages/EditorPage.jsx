@@ -1,9 +1,16 @@
 import { TOOL_REGISTRY } from '../data/tools.js'
 import EditorSection from '../editor/EditorSection.jsx'
 import Breadcrumb from '../components/Breadcrumb.jsx'
+import { useSEO } from '../hooks/useSEO.js'
 
 export default function EditorPage() {
   const tool = TOOL_REGISTRY['photo-editor']
+  useSEO({
+    title: 'Online Photo Editor',
+    description:
+      'Open the free online photo editor and crop, resize, rotate, apply filters, remove backgrounds and more — all in your browser with no uploads.',
+    path: '/editor',
+  })
   return (
     <>
       <section className="relative overflow-hidden bg-[#012604] py-10 text-white sm:py-12">

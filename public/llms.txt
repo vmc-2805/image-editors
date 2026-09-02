@@ -1,0 +1,42 @@
+# ImageEditify
+
+> ImageEditify is a free, browser-based photo editor. Crop, resize, rotate, apply filters, remove backgrounds, compress images, add watermarks and convert formats — fast, private and 100% free. No uploads, no account, no watermarks.
+
+## Core Tools
+
+- [Photo Editor](https://imageeditify.com/tool/photo-editor): The complete editing studio with filters, text, adjustment tools and live rendering.
+- [Resize Image](https://imageeditify.com/tool/resize-image): Scale to precise pixel dimensions with aspect-ratio locking and presets for HD, Full HD and web.
+- [Crop Image](https://imageeditify.com/tool/crop-image): Drag a live selection to cut your photo to pixel-perfect framing.
+- [Rotate Image](https://imageeditify.com/tool/rotate-image): Rotate in clean 90° steps and flip horizontally or vertically.
+- [Compress Image](https://imageeditify.com/tool/compress-image): Instantly shrink JPG file size with aggressive compression.
+- [Upscale Image](https://imageeditify.com/tool/upscale): Enlarge photos 2x with high-quality smoothing for prints and retina displays.
+- [Remove Background](https://imageeditify.com/tool/remove-background): One-tap AI cutout that erases backgrounds in seconds, fully on-device.
+- [Watermark Image](https://imageeditify.com/tool/watermark-image): Brand photos with custom text watermarks — size, opacity, color and placement.
+- [Blur Face](https://imageeditify.com/tool/blur-face): Paint over faces, plates or details with an adjustable blur brush.
+- [Meme Generator](https://imageeditify.com/tool/meme-generator): Drop an image, add bold top and bottom text and export a share-ready meme.
+- [HTML to Image](https://imageeditify.com/tool/html-to-image): Paste HTML with inline styles, preview live and export a crisp PNG snapshot.
+
+## Image Conversion
+
+- [Convert to JPG](https://imageeditify.com/tool/convert-to-jpg): Turn PNG or WEBP images into universally supported JPG files.
+- [Convert from JPG](https://imageeditify.com/tool/convert-from-jpg): Re-encode JPGs into lossless PNG with full transparency support.
+
+## Apps
+
+- [Online Photo Editor](https://imageeditify.com/editor): Launch the full browser-based photo editing workspace.
+
+## Blog & Guides
+
+- [How to Remove Background from an Image for Free (2026 Guide)](https://imageeditify.com/blog/how-to-remove-background-from-image): Remove a photo background in seconds using AI — no Photoshop, no uploads, no cost.
+- [How to Compress Images Without Losing Quality](https://imageeditify.com/blog/compress-images-without-losing-quality): Shrink JPG and PNG file sizes dramatically while keeping them sharp.
+- [How to Resize Images for Instagram (Perfect Pixel Dimensions)](https://imageeditify.com/blog/resize-images-for-instagram): The precise pixel dimensions for posts, stories and reels.
+- [How to Watermark Your Photos to Protect Your Work](https://imageeditify.com/blog/watermark-your-photos): Best placement, opacity and text settings for watermarks.
+- [JPG to PNG: When to Convert (and When Not To)](https://imageeditify.com/blog/convert-jpg-to-png): Exactly when to convert between formats and when to keep the original.
+- [How to Crop Photos Perfectly (Rule of Thirds Explained)](https://imageeditify.com/blog/crop-photos-perfectly): Framing, the Rule of Thirds and platform-specific aspect ratios.
+
+## Company
+
+- [About](https://imageeditify.com/about): Learn more about ImageEditify.
+- [Contact](https://imageeditify.com/contact): Get in touch with our team.
+- [Terms of Service](https://imageeditify.com/terms): The terms governing use of ImageEditify.
+- [Privacy Policy](https://imageeditify.com/privacy): How we handle your data — we never upload your images to a server.

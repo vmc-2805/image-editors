@@ -12,6 +12,7 @@ import {
 } from 'lucide-react'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import Reveal from '../components/Reveal.jsx'
+import { useSEO } from '../hooks/useSEO.js'
 
 const VALUES = [
   {
@@ -43,6 +44,12 @@ const MILESTONES = [
 ]
 
 export default function AboutPage() {
+  useSEO({
+    title: 'About Us',
+    description:
+      'ImageEditify is a free, privacy-first photo editor that runs entirely in your browser. No uploads, no accounts, no watermarks — learn our story.',
+    path: '/about',
+  })
   return (
     <>
       <section className="relative overflow-hidden bg-[#012604] py-10 text-white sm:py-12">

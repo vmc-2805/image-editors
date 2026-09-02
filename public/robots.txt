@@ -1,4 +1,21 @@
 User-agent: *
 Allow: /
 
+# Block crawling of helper/asset paths (optional)
+Disallow: /src/
+
+# Sitemaps
 Sitemap: https://imageeditify.com/sitemap.xml
+
+# LLMs.txt for AI / LLM crawlers
+User-agent: GPTBot
+Allow: /llms.txt
+
+User-agent: ClaudeBot
+Allow: /llms.txt
+
+User-agent: Google-Extended
+Allow: /llms.txt
+
+User-agent: PerplexityBot
+Allow: /llms.txt

@@ -12,6 +12,15 @@ const tools = [
   'watermark-image', 'blur-face',
 ]
 
+const blogPosts = [
+  'how-to-remove-background-from-image',
+  'compress-images-without-losing-quality',
+  'resize-images-for-instagram',
+  'watermark-your-photos',
+  'convert-jpg-to-png',
+  'crop-photos-perfectly',
+]
+
 const staticPages = [
   { path: '/', priority: '1.0', freq: 'weekly' },
   { path: '/editor', priority: '0.9', freq: 'monthly' },
@@ -31,7 +40,13 @@ const infoPages = [
   { path: '/privacy', priority: '0.3', freq: 'yearly' },
 ]
 
-const urls = [...staticPages, ...toolPages, ...infoPages]
+const blogPages = blogPosts.map((slug) => ({
+  path: `/blog/${slug}`,
+  priority: '0.6',
+  freq: 'monthly',
+}))
+
+const urls = [...staticPages, ...toolPages, ...infoPages, ...blogPages]
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

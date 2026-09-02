@@ -6,10 +6,16 @@ import QuickTool from '../components/QuickTool.jsx'
 import HtmlTool from '../components/HtmlTool.jsx'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import Reveal from '../components/Reveal.jsx'
+import { useSEO } from '../hooks/useSEO.js'
 
 export default function ToolPage() {
   const { slug } = useParams()
   const tool = TOOL_REGISTRY[slug]
+  useSEO({
+    title: tool ? `${tool.title} Tool` : null,
+    description: tool ? tool.desc : undefined,
+    path: `/tool/${slug}`,
+  })
   if (!tool) return <Navigate to="/" replace />
 
   const isEditorTool = tool.mode === 'editor'

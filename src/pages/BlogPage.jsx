@@ -3,6 +3,7 @@ import { ArrowRight, CalendarDays, Clock, Tag } from 'lucide-react'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import Reveal from '../components/Reveal.jsx'
 import { BLOG_POSTS } from '../data/blog.js'
+import { useSEO } from '../hooks/useSEO.js'
 
 function formatDate(dateStr) {
   return new Date(dateStr).toLocaleDateString('en-US', {
@@ -13,6 +14,12 @@ function formatDate(dateStr) {
 }
 
 export default function BlogPage() {
+  useSEO({
+    title: 'Blog & Photo Editing Guides',
+    description:
+      'Practical, step-by-step photo editing tutorials. Learn how to remove backgrounds, compress images, resize for Instagram, watermark photos and more.',
+    path: '/blog',
+  })
   const [featured, ...rest] = BLOG_POSTS
 
   return (
