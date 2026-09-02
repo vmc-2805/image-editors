@@ -7,7 +7,6 @@ import EditorPage from './pages/EditorPage.jsx'
 import ToolPage from './pages/ToolPage.jsx'
 import TermsPage from './pages/TermsPage.jsx'
 import PrivacyPage from './pages/PrivacyPage.jsx'
-import ContactPage from './pages/ContactPage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
 import BlogPage from './pages/BlogPage.jsx'
 import BlogPostPage from './pages/BlogPostPage.jsx'
@@ -34,7 +33,6 @@ export default function App() {
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
-          <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>

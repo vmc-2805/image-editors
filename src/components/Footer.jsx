@@ -76,9 +76,7 @@ export default function Footer() {
             <Link to="/about" className="text-[11px] font-bold text-emerald-100/40 transition-colors hover:text-lime-300">
               About
             </Link>
-            <Link to="/contact" className="text-[11px] font-bold text-emerald-100/40 transition-colors hover:text-lime-300">
-              Contact
-            </Link>
+
             <Link to="/terms" className="text-[11px] font-bold text-emerald-100/40 transition-colors hover:text-lime-300">
               Terms
             </Link>
