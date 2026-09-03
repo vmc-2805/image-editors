@@ -2,8 +2,7 @@ import { useEffect } from 'react'
 
 const BASE_URL = 'https://imageeditify.com'
 
-// TODO: Change to 'index, follow' when the site is ready to be indexed.
-const ROBOTS = 'noindex, follow'
+const ROBOTS = 'index, follow'
 
 function setMeta(attr, key, content) {
   let el = document.head.querySelector(`meta[${attr}="${key}"]`)
