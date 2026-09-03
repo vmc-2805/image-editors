@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 const BASE_URL = 'https://imageeditify.com'
 
-const ROBOTS = 'index, follow'
+const ROBOTS = 'index, follow, max-image-preview:large'
 
 function setMeta(attr, key, content) {
   let el = document.head.querySelector(`meta[${attr}="${key}"]`)
